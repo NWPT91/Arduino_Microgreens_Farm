@@ -280,6 +280,9 @@ def main():
     db_insert(varAirTemp, varHumidity, varUV, varWaterTemp, varPH, varEC, varWaterLevel)
     
     #end readings to db code-------------------------------------------------------
+
+
+    #copy these to seperate files to be run with a scheduler as needed
     
     #turn the lights on
     #args are which light, 1 for on, serial connection
